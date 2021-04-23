@@ -1,0 +1,33 @@
+{
+    "name": "@types/electron-json-storage",
+    "version": "4.0.0",
+    "description": "TypeScript definitions for electron-json-storage",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Sam Saint-Pettersen",
+            "url": "https://github.com/stpettersens",
+            "githubUsername": "stpettersens"
+        },
+        {
+            "name": "nrlquaker",
+            "url": "https://github.com/nrlquaker",
+            "githubUsername": "nrlquaker"
+        },
+        {
+            "name": "John Woodruff",
+            "url": "https://github.com/jbw91",
+            "githubUsername": "jbw91"
+        }
+    ],
+    "main": "",
+    "repository": {
+        "type": "git",
+        "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    "scripts": {},
+    "dependencies": {
+    },
+    "typesPublisherContentHash": "ba57b5ee94724b37bcecdf15b5244c31d0dba49fb3a79317a4694f0a04e1ab89",
+    "typeScriptVersion": "2.2"
+}
