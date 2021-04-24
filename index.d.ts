@@ -16,6 +16,8 @@ export function getMany(keys: ReadonlyArray<string>, callback: (error: any, data
 export function getMany(keys: ReadonlyArray<string>, options: DataOptions, callback: (error: any, data: object) => void): void;
 export function getAll(callback: (error: any, data: object) => void): void;
 export function getAll(options: DataOptions, callback: (error: any, data: object) => void): void;
+export function getSync(key: string): object;
+export function getSync(key: string, options: DataOptions): object;
 export function set(key: string, json: object, callback: (error: any) => void): void;
 export function set(key: string, json: object, options: DataOptions, callback: (error: any) => void): void;
 export function has(key: string, callback: (error: any, hasKey: boolean) => void): void;
